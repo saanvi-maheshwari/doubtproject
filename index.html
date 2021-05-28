@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>My Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--    All 3 links (line no:8,9,10) To be givenfor boostrap class ALWAYS-->
+</head>
+
+<body>
+
+    <div class="container">
+        <!--   n Bootstrap any code which we write will come inside the class container div. Container will add a margin-left, margin-right, padding-right and padding-left to all the elements inside it -->
+        <section id="apps">
+            <hr>
+            <h1>CLICK ON THE APPS TO PLAY</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item-active">
+                        <center>
+                        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JGX7mJ_DvtfODwlN6_QuBj4O4JDpulgJs3LTpFeenFc/embed"></iframe>
+                           <div class="carousel-content">
+                            <p>Area And Perimeter</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                             <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/EOkoqVp6cVAwc_m0T1q7tu2W0xyJiKh8Ix4yZpm7TL0/embed"></iframe>
+                            <div class="carousel-content">
+                            <p>marketing</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarouse2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+          
+            
+        </section>
+
+        <section id="games">
+            <hr>
+            <h1>CLICK ON THE GAMES TO PLAY</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <!--the id = My Carousel has been given just to show the effect of a Carousel ( a SLIDESHOW).. Any id can be used-->
+                <!--the class carousel slide helps to add a CSS transition and animation effect, which makes the items move when the next or previous buttons are clicked.-->
+                <!--            data-ride="carousel" tells Bootstrap to begin animating the carousel immediately when the page loads.-->
+                <div class="carousel-inner">
+                    <!--            class="carousel-inner" says that all the contents of the slides will be inside this div.-->
+                    <div class="item active">
+                        <!--           we will mention the first slide we need to show as soon as the page loads inside this class "item active"-->
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/TKAfgaITSYgtBXkqiVeBHSxyeYTCWNvrZNKAopbB2QU" target="_blank"><img class="game" src="edited%20maths%20quiz.png"></a>
+
+                            <div class="carousel-content">
+
+                                <!-- carousel-content means it will contain the text content of the respective slide.-->
+                                <p>Maths Quiz</p>
+                            </div>
+                        </center>
+                    </div>
+                    <!--                closing tag of item active-->
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/spritelab/Oc_Pfg0ihtjr_4y2obBuiuHSVxEwFTHBWy5FkoTeCBU" target="_blank"><img class="game" src="thumbnail%20(1).png"></a>
+                            <div class="carousel-content">
+
+                                <!-- carousel-content means it will contain the text content of the respective slide.-->
+                                <p>Coin Collector</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarouse2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <!-- closing tag of class corousel slide-->
+            <hr>
+            <section id="chatbot">
+                <h1>My Chatbot </h1>
+                <div class="line"></div>
+                <hr>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/d3026a48-bcd6-4422-b8d0-fa63cd5390b7">
+                </iframe>
+            </section>
+    </div>
+
+
+</body>
+
+</html>
